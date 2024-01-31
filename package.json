@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "watch jest": "jest --watch *.js",
+    "jestWatch": "jest --watch *.js",
     "watch": "webpack --watch",
     "build": "webpack",
     "ghp": "git subtree push --prefix dist origin gh-pages"
